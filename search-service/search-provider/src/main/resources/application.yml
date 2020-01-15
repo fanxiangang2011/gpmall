@@ -3,10 +3,9 @@ spring:
     active: dev
   application:
     name: search-provider
+
 mybatis:
-  mapper-locations: classpath*:com/gpmall/pay/dal/persistence/*Mapper.xml"
-  type-aliases-package: com.gpmall.pay.dal.entitys
-server:
-  port: 8200
+  mapper-locations: classpath*:com/gpmall/search/dal/persistence/*Mapper.xml"
+  type-aliases-package: com.gpmall.search.dal.entitys
 
 
